@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=CD74HC132E
+PartCategory=Integrated Circuit
+PackageCategory=Dual-In-Line Packages
+PinCount=14
+Version=4.1
+Released=2017-01-12 12:59:53
+Downloaded=2025-01-01 21:22:48
+3D=Y

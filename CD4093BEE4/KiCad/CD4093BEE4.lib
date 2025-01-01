@@ -1,0 +1,35 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model CD4093BEE4
+#/665445/122786/2.50/14/4/Integrated Circuit
+DEF CD4093BEE4 IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "CD4093BEE4" 850 200 50 H V L CNN
+F2 "DIP794W53P254L1930H508Q14N" 850 100 50 H I L CNN
+F3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fcd4093b" 850 0 50 H I L CNN
+F4 "IC GATE NAND 4CH 2-INP 14DIP" 850 -100 50 H I L CNN "Description"
+F5 "5.08" 850 -200 50 H I L CNN "Height"
+F6 "595-CD4093BEE4" 850 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CD4093BEE4?qs=LSR%252BNeaw%2FwC39NlVGrbLWQ%3D%3D" 850 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "CD4093BEE4" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X A 1 0 0 200 R 50 50 0 0 P
+X B 2 0 -100 200 R 50 50 0 0 P
+X J 3 0 -200 200 R 50 50 0 0 P
+X K 4 0 -300 200 R 50 50 0 0 P
+X C 5 0 -400 200 R 50 50 0 0 P
+X D 6 0 -500 200 R 50 50 0 0 P
+X VSS 7 0 -600 200 R 50 50 0 0 P
+X VDD 14 1000 0 200 L 50 50 0 0 P
+X H 13 1000 -100 200 L 50 50 0 0 P
+X G 12 1000 -200 200 L 50 50 0 0 P
+X M 11 1000 -300 200 L 50 50 0 0 P
+X L 10 1000 -400 200 L 50 50 0 0 P
+X F 9 1000 -500 200 L 50 50 0 0 P
+X E 8 1000 -600 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -700 200 -700 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

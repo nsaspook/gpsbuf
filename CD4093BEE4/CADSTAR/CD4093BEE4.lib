@@ -1,0 +1,16 @@
+.CD4093BEE4 :1 ;IC GATE NAND 4CH 2-INP 14DIP
+DIP794W53P254L1930H508Q14N
+*STM IC
+*NGS
+*PLB 1="A" 2="B" 3="J" 4="K" 5="C" 6="D" 7="VSS" 8="E" 9="F" 10="L" 11="M" 12="G" 13="H" 14="VDD"
+*MXP 14
+*DFN CD4093BEE4
+~!Mouser Part Number (595-CD4093BEE4)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/CD4093BEE4?qs=LSR%252BNeaw%2FwC39NlVGrbLWQ%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (CD4093BEE4)
+~!Link Datasheet (http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fcd4093b)
+~!Height (5.08mm)
+~!3D_Model (CD4093BEE4)
+CD4093BEE4
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 14.1!U 13.1!U 12.1!U 11.1!U 10.1!U 9.1!U 8.1!U 

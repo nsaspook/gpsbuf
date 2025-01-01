@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=CD4093BEE4
+PartCategory=Integrated Circuit
+PackageCategory=Dual-In-Line Packages
+PinCount=14
+Version=1.4
+Released=2020-04-24 13:58:26
+Downloaded=2025-01-01 20:27:39
+3D=Y
