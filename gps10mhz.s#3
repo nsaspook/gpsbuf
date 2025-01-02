@@ -9895,7 +9895,7 @@ DIN A4, landscape with location and doc. field</description>
 </plain>
 <instances>
 <instance part="U1" gate="A" x="30.48" y="58.42" smashed="yes">
-<attribute name="NAME" x="56.2346" y="67.5386" size="2.083" layer="95" ratio="6"/>
+<attribute name="NAME" x="58.7746" y="52.2986" size="2.083" layer="95" ratio="6"/>
 <attribute name="VALUE" x="55.5952" y="64.9986" size="2.083" layer="96" ratio="6"/>
 </instance>
 <instance part="P+1" gate="1" x="30.48" y="27.94" smashed="yes">
@@ -9936,12 +9936,12 @@ DIN A4, landscape with location and doc. field</description>
 <attribute name="VALUE" x="38.735" y="-2.54" size="1.778" layer="96"/>
 </instance>
 <instance part="C5" gate="G$1" x="22.86" y="38.1" smashed="yes" rot="R270">
-<attribute name="NAME" x="23.495" y="37.084" size="1.778" layer="95" rot="R270"/>
+<attribute name="NAME" x="15.875" y="34.544" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="18.669" y="37.084" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="C6" gate="G$1" x="60.96" y="38.1" smashed="yes" rot="R270">
 <attribute name="NAME" x="61.595" y="37.084" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="56.769" y="37.084" size="1.778" layer="96" rot="R270"/>
+<attribute name="VALUE" x="64.516" y="38.989" size="1.778" layer="96"/>
 </instance>
 <instance part="R1" gate="G$1" x="25.4" y="33.02" smashed="yes" rot="R90">
 <attribute name="NAME" x="23.9014" y="29.21" size="1.778" layer="95" rot="R90"/>
@@ -9949,7 +9949,7 @@ DIN A4, landscape with location and doc. field</description>
 </instance>
 <instance part="R2" gate="G$1" x="55.88" y="33.02" smashed="yes" rot="R90">
 <attribute name="NAME" x="54.3814" y="29.21" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="59.182" y="29.21" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="64.77" y="31.242" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="SV1" gate="G$1" x="60.96" y="86.36" smashed="yes">
 <attribute name="VALUE" x="57.15" y="76.2" size="1.778" layer="96"/>
@@ -9998,7 +9998,7 @@ DIN A4, landscape with location and doc. field</description>
 <attribute name="VALUE" x="142.875" y="33.02" size="1.778" layer="96"/>
 </instance>
 <instance part="C8" gate="G$1" x="96.52" y="76.2" smashed="yes" rot="R270">
-<attribute name="NAME" x="97.155" y="75.184" size="1.778" layer="95" rot="R270"/>
+<attribute name="NAME" x="92.075" y="80.264" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="92.329" y="75.184" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="R3" gate="G$1" x="99.06" y="81.28" smashed="yes" rot="R90">
@@ -10013,23 +10013,23 @@ DIN A4, landscape with location and doc. field</description>
 <attribute name="VALUE" x="97.155" y="60.96" size="1.778" layer="96"/>
 </instance>
 <instance part="TP1" gate="G$1" x="104.14" y="73.66" smashed="yes">
-<attribute name="NAME" x="103.124" y="67.31" size="1.778" layer="95" rot="R90"/>
+<attribute name="NAME" x="105.664" y="62.23" size="1.778" layer="95" rot="R90"/>
 <attribute name="TP_SIGNAL_NAME" x="105.41" y="71.12" size="1.778" layer="97"/>
 </instance>
 <instance part="TP2" gate="G$1" x="43.18" y="81.28" smashed="yes">
 <attribute name="NAME" x="42.164" y="74.93" size="1.778" layer="95" rot="R90"/>
 <attribute name="TP_SIGNAL_NAME" x="44.45" y="78.74" size="1.778" layer="97"/>
 </instance>
-<instance part="TP3" gate="G$1" x="88.9" y="78.74" smashed="yes" rot="R180">
-<attribute name="NAME" x="89.916" y="85.09" size="1.778" layer="95" rot="R270"/>
-<attribute name="TP_SIGNAL_NAME" x="87.63" y="81.28" size="1.778" layer="97" rot="R180"/>
+<instance part="TP3" gate="G$1" x="88.9" y="73.66" smashed="yes">
+<attribute name="NAME" x="87.884" y="67.31" size="1.778" layer="95" rot="R90"/>
+<attribute name="TP_SIGNAL_NAME" x="90.17" y="71.12" size="1.778" layer="97"/>
 </instance>
 <instance part="TP4" gate="G$1" x="76.2" y="10.16" smashed="yes">
 <attribute name="NAME" x="75.184" y="3.81" size="1.778" layer="95" rot="R90"/>
 <attribute name="TP_SIGNAL_NAME" x="77.47" y="7.62" size="1.778" layer="97"/>
 </instance>
 <instance part="TP5" gate="G$1" x="109.22" y="71.12" smashed="yes">
-<attribute name="NAME" x="108.204" y="64.77" size="1.778" layer="95" rot="R90"/>
+<attribute name="NAME" x="108.204" y="62.23" size="1.778" layer="95" rot="R90"/>
 <attribute name="TP_SIGNAL_NAME" x="110.49" y="68.58" size="1.778" layer="97"/>
 </instance>
 <instance part="C9" gate="G$1" x="119.38" y="12.7" smashed="yes">
