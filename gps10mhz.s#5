@@ -8402,6 +8402,14 @@ W = angled&lt;p&gt;
 <junction x="27.94" y="58.42"/>
 <label x="27.94" y="58.42" size="1.778" layer="95"/>
 </segment>
+<segment>
+<wire x1="93.98" y1="55.88" x2="88.9" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="U1" gate="A" pin="9"/>
+</segment>
+<segment>
+<wire x1="93.98" y1="58.42" x2="88.9" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="U1" gate="A" pin="10"/>
+</segment>
 </net>
 <net name="+15V" class="1">
 <segment>
