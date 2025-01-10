@@ -10006,6 +10006,8 @@ Source: &lt;a href="http://www.farnell.com/datasheets/391100.pdf"&gt; Data sheet
 <part name="C21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1000pf"/>
 <part name="GND27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="0V" device=""/>
 <part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="0V" device=""/>
+<part name="C22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uf"/>
+<part name="GND29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="0V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10266,6 +10268,13 @@ Source: &lt;a href="http://www.farnell.com/datasheets/391100.pdf"&gt; Data sheet
 <instance part="GND28" gate="1" x="88.9" y="38.1" smashed="yes">
 <attribute name="VALUE" x="86.995" y="35.56" size="1.778" layer="96"/>
 </instance>
+<instance part="C22" gate="G$1" x="91.44" y="101.6" smashed="yes">
+<attribute name="NAME" x="92.456" y="102.235" size="1.778" layer="95"/>
+<attribute name="VALUE" x="92.456" y="97.409" size="1.778" layer="96"/>
+</instance>
+<instance part="GND29" gate="1" x="91.44" y="93.98" smashed="yes">
+<attribute name="VALUE" x="89.535" y="91.44" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -10455,6 +10464,11 @@ Source: &lt;a href="http://www.farnell.com/datasheets/391100.pdf"&gt; Data sheet
 <pinref part="C20" gate="G$1" pin="2"/>
 <pinref part="GND28" gate="1" pin="0V"/>
 <junction x="88.9" y="40.64"/>
+</segment>
+<segment>
+<pinref part="C22" gate="G$1" pin="2"/>
+<pinref part="GND29" gate="1" pin="0V"/>
+<junction x="91.44" y="96.52"/>
 </segment>
 </net>
 <net name="+15V" class="2">
@@ -10839,6 +10853,11 @@ Source: &lt;a href="http://www.farnell.com/datasheets/391100.pdf"&gt; Data sheet
 <junction x="104.14" y="99.06"/>
 <junction x="99.06" y="86.36"/>
 <junction x="114.3" y="99.06"/>
+<pinref part="C22" gate="G$1" pin="1"/>
+<wire x1="91.44" y1="104.14" x2="99.06" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="104.14" x2="99.06" y2="99.06" width="0.1524" layer="91"/>
+<junction x="99.06" y="99.06"/>
+<junction x="91.44" y="104.14"/>
 </segment>
 </net>
 </nets>
@@ -10876,6 +10895,7 @@ Source: &lt;a href="http://www.farnell.com/datasheets/391100.pdf"&gt; Data sheet
 <approved hash="208,1,172.72,71.12,0V,sup,,,,"/>
 <approved hash="208,1,2.54,48.26,0V,sup,,,,"/>
 <approved hash="208,1,88.9,40.64,0V,sup,,,,"/>
+<approved hash="208,1,91.44,96.52,0V,sup,,,,"/>
 </errors>
 </schematic>
 </drawing>

@@ -10597,7 +10597,7 @@ Source: &lt;a href="http://www.farnell.com/datasheets/391100.pdf"&gt; Data sheet
 <junction x="116.84" y="78.74"/>
 </segment>
 </net>
-<net name="SINE_IN" class="0">
+<net name="SINE_IN" class="2">
 <segment>
 <pinref part="C8" gate="G$1" pin="1"/>
 <pinref part="R3" gate="G$1" pin="1"/>
