@@ -9987,6 +9987,12 @@ Source: &lt;a href="http://www.farnell.com/datasheets/391100.pdf"&gt; Data sheet
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="1000"/>
 <part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="TLLR4400" device="" package3d_urn="urn:adsk.eagle:package:15797/1"/>
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="0V" device=""/>
+<part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.01uf"/>
+<part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="0V" device=""/>
+<part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.01uf"/>
+<part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="0V" device=""/>
+<part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.01uf"/>
+<part name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.01uf"/>
 </parts>
 <sheets>
 <sheet>
@@ -9998,7 +10004,7 @@ Source: &lt;a href="http://www.farnell.com/datasheets/391100.pdf"&gt; Data sheet
 <attribute name="VALUE" x="55.5952" y="64.9986" size="2.083" layer="96" ratio="6"/>
 </instance>
 <instance part="P+1" gate="1" x="30.48" y="27.94" smashed="yes">
-<attribute name="VALUE" x="27.94" y="22.86" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="35.56" y="25.4" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="P-1" gate="1" x="40.64" y="27.94" smashed="yes" rot="R180">
 <attribute name="VALUE" x="43.18" y="30.48" size="1.778" layer="96" rot="R270"/>
@@ -10035,20 +10041,20 @@ Source: &lt;a href="http://www.farnell.com/datasheets/391100.pdf"&gt; Data sheet
 <attribute name="VALUE" x="38.735" y="-2.54" size="1.778" layer="96"/>
 </instance>
 <instance part="C5" gate="G$1" x="22.86" y="38.1" smashed="yes" rot="R270">
-<attribute name="NAME" x="15.875" y="34.544" size="1.778" layer="95" rot="R270"/>
+<attribute name="NAME" x="23.495" y="42.164" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="18.669" y="37.084" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="C6" gate="G$1" x="60.96" y="38.1" smashed="yes" rot="R270">
 <attribute name="NAME" x="61.595" y="37.084" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="64.516" y="38.989" size="1.778" layer="96"/>
 </instance>
-<instance part="R1" gate="G$1" x="25.4" y="33.02" smashed="yes" rot="R90">
-<attribute name="NAME" x="23.9014" y="29.21" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="28.702" y="29.21" size="1.778" layer="96" rot="R90"/>
+<instance part="R1" gate="G$1" x="25.4" y="25.4" smashed="yes" rot="R90">
+<attribute name="NAME" x="23.9014" y="21.59" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="18.542" y="16.51" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R2" gate="G$1" x="55.88" y="33.02" smashed="yes" rot="R90">
-<attribute name="NAME" x="54.3814" y="29.21" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="64.77" y="31.242" size="1.778" layer="96" rot="R180"/>
+<instance part="R2" gate="G$1" x="55.88" y="25.4" smashed="yes" rot="R90">
+<attribute name="NAME" x="54.3814" y="21.59" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="64.77" y="23.622" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="SV1" gate="G$1" x="60.96" y="86.36" smashed="yes">
 <attribute name="VALUE" x="57.15" y="76.2" size="1.778" layer="96"/>
@@ -10057,14 +10063,14 @@ Source: &lt;a href="http://www.farnell.com/datasheets/391100.pdf"&gt; Data sheet
 <instance part="GND6" gate="1" x="53.34" y="78.74" smashed="yes">
 <attribute name="VALUE" x="51.435" y="76.2" size="1.778" layer="96"/>
 </instance>
-<instance part="GND7" gate="1" x="55.88" y="25.4" smashed="yes">
-<attribute name="VALUE" x="53.975" y="22.86" size="1.778" layer="96"/>
+<instance part="GND7" gate="1" x="55.88" y="15.24" smashed="yes">
+<attribute name="VALUE" x="53.975" y="12.7" size="1.778" layer="96"/>
 </instance>
 <instance part="GND8" gate="1" x="68.58" y="78.74" smashed="yes">
 <attribute name="VALUE" x="66.675" y="76.2" size="1.778" layer="96"/>
 </instance>
-<instance part="GND9" gate="1" x="25.4" y="25.4" smashed="yes">
-<attribute name="VALUE" x="23.495" y="22.86" size="1.778" layer="96"/>
+<instance part="GND9" gate="1" x="25.4" y="15.24" smashed="yes">
+<attribute name="VALUE" x="23.495" y="12.7" size="1.778" layer="96"/>
 </instance>
 <instance part="GND10" gate="1" x="116.84" y="60.96" smashed="yes">
 <attribute name="VALUE" x="114.935" y="58.42" size="1.778" layer="96"/>
@@ -10179,6 +10185,28 @@ Source: &lt;a href="http://www.farnell.com/datasheets/391100.pdf"&gt; Data sheet
 <instance part="GND20" gate="1" x="137.16" y="5.08" smashed="yes">
 <attribute name="VALUE" x="135.255" y="2.54" size="1.778" layer="96"/>
 </instance>
+<instance part="C13" gate="G$1" x="99.06" y="45.72" smashed="yes">
+<attribute name="NAME" x="100.076" y="46.355" size="1.778" layer="95"/>
+<attribute name="VALUE" x="100.076" y="41.529" size="1.778" layer="96"/>
+</instance>
+<instance part="GND21" gate="1" x="99.06" y="38.1" smashed="yes">
+<attribute name="VALUE" x="97.155" y="35.56" size="1.778" layer="96"/>
+</instance>
+<instance part="C14" gate="G$1" x="10.16" y="53.34" smashed="yes">
+<attribute name="NAME" x="11.176" y="53.975" size="1.778" layer="95"/>
+<attribute name="VALUE" x="11.176" y="49.149" size="1.778" layer="96"/>
+</instance>
+<instance part="GND22" gate="1" x="10.16" y="45.72" smashed="yes">
+<attribute name="VALUE" x="8.255" y="43.18" size="1.778" layer="96"/>
+</instance>
+<instance part="C15" gate="G$1" x="22.86" y="30.48" smashed="yes" rot="R270">
+<attribute name="NAME" x="23.495" y="34.544" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="13.589" y="34.544" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="C16" gate="G$1" x="60.96" y="30.48" smashed="yes" rot="R270">
+<attribute name="NAME" x="61.595" y="29.464" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="56.769" y="29.464" size="1.778" layer="96" rot="R270"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -10258,7 +10286,9 @@ Source: &lt;a href="http://www.farnell.com/datasheets/391100.pdf"&gt; Data sheet
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
 <pinref part="GND7" gate="1" pin="0V"/>
-<junction x="55.88" y="27.94"/>
+<wire x1="55.88" y1="17.78" x2="55.88" y2="20.32" width="0.1524" layer="91"/>
+<junction x="55.88" y="20.32"/>
+<junction x="55.88" y="17.78"/>
 </segment>
 <segment>
 <pinref part="SV1" gate="G$1" pin="1"/>
@@ -10268,7 +10298,9 @@ Source: &lt;a href="http://www.farnell.com/datasheets/391100.pdf"&gt; Data sheet
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
 <pinref part="GND9" gate="1" pin="0V"/>
-<junction x="25.4" y="27.94"/>
+<wire x1="25.4" y1="17.78" x2="25.4" y2="20.32" width="0.1524" layer="91"/>
+<junction x="25.4" y="17.78"/>
+<junction x="25.4" y="20.32"/>
 </segment>
 <segment>
 <pinref part="C7" gate="G$1" pin="2"/>
@@ -10325,6 +10357,16 @@ Source: &lt;a href="http://www.farnell.com/datasheets/391100.pdf"&gt; Data sheet
 <pinref part="GND20" gate="1" pin="0V"/>
 <junction x="137.16" y="7.62"/>
 </segment>
+<segment>
+<pinref part="C13" gate="G$1" pin="2"/>
+<pinref part="GND21" gate="1" pin="0V"/>
+<junction x="99.06" y="40.64"/>
+</segment>
+<segment>
+<pinref part="C14" gate="G$1" pin="2"/>
+<pinref part="GND22" gate="1" pin="0V"/>
+<junction x="10.16" y="48.26"/>
+</segment>
 </net>
 <net name="+15V" class="2">
 <segment>
@@ -10341,6 +10383,9 @@ Source: &lt;a href="http://www.farnell.com/datasheets/391100.pdf"&gt; Data sheet
 <junction x="33.02" y="55.88"/>
 <junction x="17.78" y="55.88"/>
 <label x="7.62" y="55.88" size="1.778" layer="95"/>
+<pinref part="C14" gate="G$1" pin="1"/>
+<wire x1="17.78" y1="55.88" x2="10.16" y2="55.88" width="0.1524" layer="91"/>
+<junction x="10.16" y="55.88"/>
 </segment>
 <segment>
 <wire x1="43.18" y1="91.44" x2="53.34" y2="91.44" width="0.1524" layer="91"/>
@@ -10375,6 +10420,7 @@ Source: &lt;a href="http://www.farnell.com/datasheets/391100.pdf"&gt; Data sheet
 <junction x="88.9" y="48.26"/>
 <junction x="99.06" y="48.26"/>
 <label x="101.6" y="48.26" size="1.778" layer="95"/>
+<pinref part="C13" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="68.58" y1="91.44" x2="78.74" y2="91.44" width="0.1524" layer="91"/>
@@ -10388,13 +10434,18 @@ Source: &lt;a href="http://www.farnell.com/datasheets/391100.pdf"&gt; Data sheet
 <segment>
 <pinref part="U1" gate="A" pin="OUTA"/>
 <wire x1="33.02" y1="48.26" x2="30.48" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="48.26" x2="30.48" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="38.1" x2="55.88" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="C6" gate="G$1" pin="2"/>
-<pinref part="R2" gate="G$1" pin="2"/>
-<junction x="55.88" y="38.1"/>
+<wire x1="30.48" y1="48.26" x2="30.48" y2="33.02" width="0.1524" layer="91"/>
 <junction x="33.02" y="48.26"/>
-<label x="38.1" y="38.1" size="1.778" layer="95"/>
+<label x="35.56" y="35.56" size="1.778" layer="95"/>
+<pinref part="C6" gate="G$1" pin="2"/>
+<junction x="55.88" y="38.1"/>
+<pinref part="R2" gate="G$1" pin="2"/>
+<wire x1="55.88" y1="30.48" x2="55.88" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="33.02" x2="55.88" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="33.02" x2="55.88" y2="33.02" width="0.1524" layer="91"/>
+<junction x="55.88" y="33.02"/>
+<pinref part="C16" gate="G$1" pin="2"/>
+<junction x="55.88" y="30.48"/>
 </segment>
 </net>
 <net name="IN" class="1">
@@ -10404,9 +10455,13 @@ Source: &lt;a href="http://www.farnell.com/datasheets/391100.pdf"&gt; Data sheet
 <wire x1="25.4" y1="53.34" x2="25.4" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="1"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<junction x="25.4" y="38.1"/>
+<junction x="25.4" y="30.48"/>
 <junction x="33.02" y="53.34"/>
 <label x="22.86" y="43.18" size="1.778" layer="95"/>
+<wire x1="25.4" y1="38.1" x2="25.4" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="30.48" x2="25.4" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="C15" gate="G$1" pin="1"/>
+<junction x="25.4" y="38.1"/>
 </segment>
 </net>
 <net name="10MHZ_OUT" class="2">
@@ -10416,6 +10471,9 @@ Source: &lt;a href="http://www.farnell.com/datasheets/391100.pdf"&gt; Data sheet
 <label x="73.66" y="38.1" size="1.778" layer="95"/>
 <junction x="63.5" y="38.1"/>
 <junction x="71.12" y="38.1"/>
+<pinref part="C16" gate="G$1" pin="1"/>
+<wire x1="63.5" y1="38.1" x2="63.5" y2="30.48" width="0.1524" layer="91"/>
+<junction x="63.5" y="30.48"/>
 </segment>
 <segment>
 <wire x1="68.58" y1="83.82" x2="76.2" y2="83.82" width="0.1524" layer="91"/>
@@ -10470,6 +10528,9 @@ Source: &lt;a href="http://www.farnell.com/datasheets/391100.pdf"&gt; Data sheet
 <label x="-7.62" y="38.1" size="1.778" layer="95"/>
 <junction x="17.78" y="38.1"/>
 <junction x="5.08" y="38.1"/>
+<pinref part="C15" gate="G$1" pin="2"/>
+<wire x1="17.78" y1="30.48" x2="17.78" y2="38.1" width="0.1524" layer="91"/>
+<junction x="17.78" y="30.48"/>
 </segment>
 <segment>
 <wire x1="53.34" y1="83.82" x2="43.18" y2="83.82" width="0.1524" layer="91"/>
@@ -10542,7 +10603,6 @@ Source: &lt;a href="http://www.farnell.com/datasheets/391100.pdf"&gt; Data sheet
 <pinref part="R3" gate="G$1" pin="1"/>
 <pinref part="R4" gate="G$1" pin="2"/>
 <junction x="99.06" y="76.2"/>
-<pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="116.84" y1="76.2" x2="104.14" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="TP1" gate="G$1" pin="TP"/>
 <wire x1="104.14" y1="76.2" x2="99.06" y2="76.2" width="0.1524" layer="91"/>
@@ -10672,9 +10732,9 @@ Source: &lt;a href="http://www.farnell.com/datasheets/391100.pdf"&gt; Data sheet
 <approved hash="208,1,30.48,2.54,0V,sup,,,,"/>
 <approved hash="208,1,53.34,81.28,0V,sup,,,,"/>
 <approved hash="208,1,33.02,58.42,0V,out,,,,"/>
-<approved hash="208,1,55.88,27.94,0V,sup,,,,"/>
+<approved hash="208,1,55.88,17.78,0V,sup,,,,"/>
 <approved hash="208,1,68.58,81.28,0V,sup,,,,"/>
-<approved hash="208,1,25.4,27.94,0V,sup,,,,"/>
+<approved hash="208,1,25.4,17.78,0V,sup,,,,"/>
 <approved hash="208,1,93.98,-2.54,0V,sup,,,,"/>
 <approved hash="208,1,104.14,7.62,0V,sup,,,,"/>
 <approved hash="208,1,129.54,38.1,0V,sup,,,,"/>
@@ -10686,9 +10746,11 @@ Source: &lt;a href="http://www.farnell.com/datasheets/391100.pdf"&gt; Data sheet
 <approved hash="208,1,162.56,71.12,0V,sup,,,,"/>
 <approved hash="208,1,116.84,63.5,0V,sup,,,,"/>
 <approved hash="208,1,137.16,7.62,0V,sup,,,,"/>
+<approved hash="208,1,99.06,40.64,0V,sup,,,,"/>
+<approved hash="208,1,10.16,48.26,0V,sup,,,,"/>
 <approved hash="115,1,144.78,71.12,N$4,,,,,"/>
-<approved hash="115,1,114.3,66.04,N$2,,,,,"/>
 <approved hash="115,1,144.78,63.5,N$3,,,,,"/>
+<approved hash="115,1,114.3,66.04,N$2,,,,,"/>
 </errors>
 </schematic>
 </drawing>
